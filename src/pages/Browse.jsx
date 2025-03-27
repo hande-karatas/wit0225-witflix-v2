@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react'
 
 function Browse() {
-
+  return (
+    <div>Browse</div>
+  )
 }
 
-export default Browse;
+export default Browse
