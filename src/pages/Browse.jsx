@@ -1,8 +1,9 @@
 import React from 'react'
 
-function Browse() {
+function Browse(props) {
+  const {activeProfile} = props;
   return (
-    <div>Browse</div>
+    <div>Browse - {activeProfile.name}</div>
   )
 }
 

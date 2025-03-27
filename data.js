@@ -1,14 +1,23 @@
+import icon1 from "./src/assets/netflix-avatar-0.jpg"
+import icon2 from "./src/assets/netflix-avatar-1.jpg"
+import icon3 from "./src/assets/netflix-avatar-2.jpg"
+import icon4 from "./src/assets/netflix-avatar-3.jpg"
+
 export const profile_data = [
     {
-        avatar:"https://picsum.photos/200?1",
+        avatar: icon1,
         name: "Hande"
     },
     {
-        avatar:"https://picsum.photos/200?2",
+        avatar: icon2,
         name: "Deniz"
     },
     {
-        avatar:"https://picsum.photos/200?3",
-        name: "Lara"
+        avatar: icon3,
+        name: "Dilara"
+    },
+    {
+        avatar: icon4,
+        name: "Atakan"
     }
 ];

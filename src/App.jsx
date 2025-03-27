@@ -10,6 +10,8 @@ import NavController from "./components/NavController"
 
 
 function App() {
+
+  const [activeProfile, setActiveProfile] = useState(null);
  
   return (
     <>      
@@ -21,10 +23,10 @@ function App() {
           <SignUp />
         </Route>
         <Route path="/welcome">
-          <Welcome />
+          <Welcome setActiveProfile={setActiveProfile} />
         </Route>
         <Route path="/browse">
-          <Browse />
+          <Browse activeProfile={activeProfile} />
         </Route>
       </Switch>
       <NavController />
